@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readywire-Turbo</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="page" class="site">
+        <div class="container">
+            <div class="form-box">
+                <div class="progress">
+                    <div class="logo">
+                        <a href="/"><span><img src="./img/readywirelogo_250x50.png"
+                                    srcset="https://www.readywire.com/wp-content/uploads/2021/08/Readywire-logo.png 2x"
+                                    alt="Readywire-Turbo"></span></a>
+                    </div>
+                    <!-- Steps -->
+                    <ul class="progress-steps">
+                        <li class="steps active">
+                            <span>1</span>
+                            <p>Customer Details</p>
+                        </li>
+
+                        <li class="steps">
+                            <span>2</span>
+                            <p>Acumatica Details</p>
+                        </li>
+                        <li class="steps">
+                            <span>3</span>
+                            <p>EC2 Server Details</p>
+                        </li>
+                        <li class="steps">
+                            <span>3</span>
+                            <p>RDS Server Details</p>
+                        </li>
+                        <li class="steps">
+                            <span>4 </span>
+                            <p>SaaS Details</p>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <form action="" id="foo">
+
+                    <!-- Customer Details Form -->
+                    <div class="form-one form-steps active">
+                        <div class="bg-svg"></div>
+                        <h2>Customer Details</h2>
+
+                        <div>
+                            <label>Customer Name:</label>
+                            <input type="text" placeholder="Customer Name">
+                        </div>
+                        <div>
+                            <label>Customer ID:</label>
+                            <input type="text" placeholder="Customer ID">
+                        </div>
+                        <div>
+                            <label>OEM:</label>
+                            <input type="text" placeholder="OEM Name">
+                        </div>
+                        <div>
+                            <label>PAN:</label>
+                            <input type="text" placeholder="PAN Number">
+                        </div>
+                        <div>
+                            <label>Contact:</label>
+                            <input type="tel" placeholder="+91 XXXXX XXXX">
+                        </div>
+
+                        <div>
+                            <label>Customer Onboarding Date:</label>
+                            <input type="date" name="CustomerOnboarding" id="">
+                        </div>
+                    </div>
+
+
+                    <!-- Acumatica Details Form -->
+                    <div class="form-two form-steps">
+                        <div class="bg-svg"></div>
+                        <h2>Acumatica Details</h2>
+
+                        <div>
+                            <label>Acumatica License Number:</label>
+                            <input type="number" placeholder="Acumatica License No.">
+                        </div>
+                        <div>
+                            <label>Acumatica License Issued on:</label>
+                            <input type="date" name="" id="">
+                        </div>
+                        <div>
+                            <label>Acumatica Version Installed.:</label>
+                            <input type="text" placeholder=" ">
+                        </div>
+                        <div>
+                            <label>Domain Name:</label>
+                            <input type="text" placeholder="customer.readywire.com">
+                        </div>
+                        <div>
+                            <label>Application-Pool Name:</label>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div>
+                            <label>Tenant ID:</label>
+                            <input type="text" placeholder="Tenant Id ">
+                        </div>
+                        <div>
+                            <label>sandbox install Date:</label>
+                            <input type="date" name="SandboxInstallation" id="">
+                        </div>
+                        <div>
+                            <label>Sandbox Handover Date:</label>
+                            <input type="date" name="SandboxHandover" id="">
+                        </div>
+                    </div>
+
+                    <!-- EC2 Server Details -->
+                    <div class="form-three form-steps">
+                        <div class="bg-svg"></div>
+                        <h2>EC2 Server Details</h2>
+
+                        <div>
+                            <label>EC2 JIRA Ticket no.:</label>
+                            <input type="text" placeholder="JIRA Ticket no.">
+                        </div>
+                        <div>
+                            <label>EC2 Instance ID:</label>
+                            <input type="text" placeholder="EC2 Instance ID">
+                        </div>
+                        <div>
+                            <label>EC2 Instance Type:</label>
+                            <input type="text" placeholder="EC2 Instance Type:">
+                        </div>
+                        <div>
+                            <label>EC2 Shared:</label>
+                            <select name="EC2sHared" id="sharing">
+                                <option value="True">Yes</option>
+                                <option value="False">No</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>IP Address:</label>
+                            <input type="text" placeholder="EC2 IP">
+                        </div>
+                        <div>
+                            <label>Sunet ID:</label>
+                            <input type="text" placeholder="EC2 Subnet">
+                        </div>
+                        <div>
+                            <label>VPC ID:</label>
+                            <input type="text" placeholder="EC2 VPC ID">
+                        </div>
+                    </div>
+
+
+
+                    <!--RDS Instance Details-->
+                    <div class="form-four form-steps">
+                        <div class="bg-svg"> </div>
+                        <h2>RDS Server Details</h2>
+
+                        <div>
+                            <label>RDS JIRA Ticket no.:</label>
+                            <input type="text" placeholder="JIRA Ticket no.">
+                        </div>
+                        <div>
+                            <label>Instance ID:</label>
+                            <input type="text" placeholder="RDS Instance ID">
+                        </div>
+                        <div>
+                            <label>Instance Type:</label>
+                            <input type="text" placeholder="RDS Instance Type">
+                        </div>
+
+                        <div>
+                            <label>RDS Shared:</label>
+                            <select name="RDSSHared" id="">
+                                <option value="True">Yes</option>
+                                <option value="False">No</option>
+                            </select>
+
+                        </div>
+                        <div>
+                            <label>Sunet ID:</label>
+                            <input type="text" placeholder="RDS Subnet">
+                        </div>
+                        <div>
+                            <label>VPC ID:</label>
+                            <input type="text" placeholder="RDS VPC ID">
+                        </div>
+                        <div>
+                            <label>Endpoint:</label>
+                            <input type="text" placeholder="RDS">
+                        </div>
+                        <div>
+                            <label>DB-Connection Timeout:</label>
+                            <input type="text" placeholder="DB Connection Timeout(s)">
+                        </div>
+                        <div>
+                            <label>RDS Creation Date:</label>
+                            <input type="date" name="RDSCreation" id="">
+                        </div>
+                    </div>
+
+
+                    <!-- Implementation Details -->
+                    <div class="form-five form-steps">
+                        <div class="bg-svg"></div>
+                        <h2>SaaS & Implementation Details:</h2>
+                        <div>
+                            <label>Implementation ID:</label>
+                            <input type="text" placeholder="Implementation ID:">
+                        </div>
+                        <div>
+                            <label>Number Of Users:</label>
+                            <input type="number" placeholder="User Count">
+                        </div>
+                        <div>
+                            <label>http Connection Timeout:</label>
+                            <input type="number" placeholder="connection timeout(s)">
+                        </div>
+                        <div>
+                            <label>Allocated RAM Heap size:</label>
+                            <input type="number" placeholder="Allocated RAM(Kb)">
+                        </div>
+                        <div>
+                            <label>Public S3 Bucket:</label>
+                            <input type="text" placeholder="Public S3 Bucket">
+                        </div>
+                        <div>
+                            <label>Allocated RAM Heap size:</label>
+                            <input type="text" placeholder="Private S3 Bucket">
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <!-- Buttons! -->
+                    <div class="btn-group">
+                        <button type="button" class="btn-prev" disabled>Previous</button>
+                        <button type="button" class="btn-next">Next</button>
+                        <button type="button" class="btn-submit">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
