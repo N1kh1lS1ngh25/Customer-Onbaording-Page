@@ -48,7 +48,7 @@
 
                 <form action="" id="foo">
 
-                    <!-- Customer Details Form -->
+                    <!--! Customer Details Form -->
                     <div class="form-one form-steps active">
                         <h2>Customer Details</h2>
 
@@ -72,15 +72,22 @@
                             <label>Contact:</label>
                             <input type="tel" placeholder="+91 XXXXX XXXX">
                         </div>
-
                         <div>
                             <label>Customer Onboarding Date:</label>
                             <input type="date" name="CustomerOnboarding" id="">
                         </div>
+                        <div>
+                            <label>Domain Name:</label>
+                            <input type="text" placeholder="customer.readywire.com">
+                        </div>
+                        <div>
+                            <label>Application-Pool Name:</label>
+                            <input type="text" placeholder="">
+                        </div>
                     </div>
 
 
-                    <!-- Acumatica Details Form -->
+                    <!--! Acumatica Details Form -->
                     <div class="form-two form-steps">
                         <h2>Acumatica Details</h2>
 
@@ -96,29 +103,17 @@
                             <label>Acumatica Version Installed.:</label>
                             <input type="text" placeholder=" ">
                         </div>
-                        <div>
+                        <!-- <div>
                             <label>Domain Name:</label>
                             <input type="text" placeholder="customer.readywire.com">
-                        </div>
-                        <div>
+                        </div> -->
+                        <!-- <div>
                             <label>Application-Pool Name:</label>
                             <input type="text" placeholder="">
-                        </div>
-                        <div>
-                            <label>Tenant ID:</label>
-                            <input type="text" placeholder="Tenant Id ">
-                        </div>
-                        <div>
-                            <label>sandbox install Date:</label>
-                            <input type="date" name="SandboxInstallation" id="">
-                        </div>
-                        <div>
-                            <label>Sandbox Handover Date:</label>
-                            <input type="date" name="SandboxHandover" id="">
-                        </div>
+                        </div> -->
                     </div>
 
-                    <!-- EC2 Server Details -->
+                    <!--! EC2 Server Details -->
                     <div class="form-three form-steps">
                         <h2>EC2 Server Details</h2>
 
@@ -146,7 +141,7 @@
                             <input type="text" placeholder="EC2 IP">
                         </div>
                         <div>
-                            <label>Sunet ID:</label>
+                            <label>Subnet ID:</label>
                             <input type="text" placeholder="EC2 Subnet">
                         </div>
                         <div>
@@ -156,8 +151,7 @@
                     </div>
 
 
-
-                    <!--RDS Instance Details-->
+                    <!--! RDS Instance Details-->
                     <div class="form-four form-steps">
                         <h2>RDS Server Details</h2>
 
@@ -183,7 +177,7 @@
 
                         </div>
                         <div>
-                            <label>Sunet ID:</label>
+                            <label>Subnet ID:</label>
                             <input type="text" placeholder="RDS Subnet">
                         </div>
                         <div>
@@ -205,7 +199,7 @@
                     </div>
 
 
-                    <!-- Implementation Details -->
+                    <!--! Implementation Details -->
                     <div class="form-five form-steps">
                         <h2>SaaS & Implementation Details:</h2>
                         <div>
@@ -215,6 +209,18 @@
                         <div>
                             <label>Number Of Users:</label>
                             <input type="number" placeholder="User Count">
+                        </div>
+                        <div>
+                            <label>Tenant ID:</label>
+                            <input type="text" placeholder="Tenant Id ">
+                        </div>
+                        <div>
+                            <label>sandbox install Date:</label>
+                            <input type="date" name="SandboxInstallation" id="">
+                        </div>
+                        <div>
+                            <label>Sandbox Handover Date:</label>
+                            <input type="date" name="SandboxHandover" id="">
                         </div>
                         <div>
                             <label>http Connection Timeout:</label>
@@ -233,7 +239,6 @@
                             <input type="text" placeholder="Private S3 Bucket">
                         </div>
                     </div>
-                    <br>
 
 
                     <!-- Buttons! -->
