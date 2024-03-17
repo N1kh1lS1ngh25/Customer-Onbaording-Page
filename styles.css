@@ -195,10 +195,10 @@ form label {
     font-weight: 600;
 }
 
-form .grouping {
+/* form .grouping {
     display: flex;
 
-}
+} */
 
 
 form .grouping input {
@@ -264,7 +264,8 @@ form>div.active {
 }
 
 .btn-group .btn-submit,
-.form-five.active~.btn-group .btn-next {
+.form-five.active~.btn-group .btn-next,
+.form-five.active~.btn-group .btn-save {
     display: none;
 }
 
